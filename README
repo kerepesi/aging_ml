@@ -1,0 +1,7 @@
+
+## Running 20 experiments of XGBoost with 5 fold CV (prediction are averaged)
+## Parameters: max_depth=1, n_est=50, n_exp=20
+python XGBoost_CV.py 1 50 20 Final_feature_table.csv
+
+## Dumping trees of the XGBoost model (max_d=1, n_est=50, inputfile=Final_feature_table.csv):
+python TreeDumper.py 1 50 Final_feature_table.csv
