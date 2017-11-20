@@ -24,7 +24,7 @@ def dump_model(model,num_trees=None,output_file=None):
 IN_name=sys.argv[3]
 
 X_train = pd.read_csv(IN_name, dtype=np.float32)
-y_train=np.ravel(pd.read_csv("../DataCreation/uniprot_sprot_human.dat-label_col.csv", usecols=[1], sep=",", dtype=np.float32))
+y_train=np.ravel(pd.read_csv("aging_labels.csv", usecols=[1], sep=",", dtype=np.float32))
 
 max_d=int(sys.argv[1])
 n_est=int(sys.argv[2])
