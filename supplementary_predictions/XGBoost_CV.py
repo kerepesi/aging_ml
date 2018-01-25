@@ -10,7 +10,7 @@ from sklearn.cross_validation import KFold
 IN_name=sys.argv[4]
 X_raw = pd.read_csv(IN_name, dtype=np.float32)
 X=X_raw.values
-y = np.ravel(pd.read_csv("uniprot_sprot_human.dat-label_col_agingGOs_or_GenAge.csv", usecols=[1], sep=",", dtype=np.float32))
+y = np.ravel(pd.read_csv("GO_aging_and_GenAge_ageing_labels.csv", usecols=[1], sep=",", dtype=np.float32))
 
 thresholds = np.linspace(0.01, 0.99, 50)
 max_d=int(sys.argv[1])
