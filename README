@@ -20,13 +20,13 @@ Running commands:
 Description of the files (for more information please see Methods of the paper):
    
   - aging_labels.csv:
-    Ageing labels ('1' if the given protein included in GenAge databe, 0 otherwise)
+    Labels of the classification ('1' if the given protein included in GenAge database, 0 otherwise)
     
   - uniprot_sprot_human.dat-GO_Digger_Sparse.py.txt-TableGen.py.csv.zip: 
     Gene Ontology features with ancestors and with ageing GOs. 
     
   - uniprot_sprot_human.dat-GO_Digger_Sparse.py.txt-TableGen.py.csv-woAgingGOs.csv.zip
-    Gene Ontology features with ancestors and without ageing GOs (simply called 'GO' in Table 4 of the paper). 
+    Gene Ontology features with ancestors and without ageing GOs ( called 'GO' in Table 4 of the paper). 
     
   - uniprot_sprot_human.dat-GO_Digger_Sparse.py.txt-TableGen.py.csv-woAgingGOs.csv-f_sel_based_on_GO_stats.py-thr1000.csv:
     Feature set containing only the GO features that occur in least 100 proteins (called 'Frequent GOs' in Table 5 of the paper).
@@ -38,7 +38,7 @@ Description of the files (for more information please see Methods of the paper):
     Co-expression features.
     
   - Final_32_features.csv: 
-    Table of the final 32 features -- selected by XGBoost. 
+    Table of the final 32 features (selected by XGBoost).
     
   - Final_32_features.csv-XGBoost_CV_preds-n_est50-exp20.csv: 
     Output file of the command 'python XGBoost_CV.py 1 50 20 Final_32_features.csv'.
