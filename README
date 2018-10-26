@@ -1,7 +1,14 @@
 
-************************************
-Tables and codes of the paper "..."
-************************************
+*******************************************************************************************
+Feature tables and main scripts of the paper 
+"Prediction and characterization of human ageing-related proteins by using machine learning"
+********************************************************************************************
+
+Citation of the paper:
+
+    Kerepesi C, Daróczy B, Sturm Á, Vellai T, Benczúr A
+    Prediction and characterization of human ageing-related proteins by using machine learning
+    Scientific Reports, Vol 8, 4094 (2018).
 
 Requirements (versions used by us in parenthesis): 
 
@@ -28,8 +35,8 @@ Description of the files (for more information please see Methods of the paper):
   - uniprot_sprot_human.dat-GO_Digger_Sparse.py.txt-TableGen.py.csv-woAgingGOs.csv.zip
     Gene Ontology features with ancestors and without ageing GOs ( called 'GO' in Table 4 of the paper). 
     
-  - uniprot_sprot_human.dat-GO_Digger_Sparse.py.txt-TableGen.py.csv-woAgingGOs.csv-f_sel_based_on_GO_stats.py-thr1000.csv:
-    Feature set containing only the GO features that occur in least 100 proteins (called 'Frequent GOs' in Table 5 of the paper).
+  - uniprot_sprot_human.dat-GO_Digger_Sparse.py.txt-TableGen.py.csv-woAgingGOs.csv-f_sel_based_on_GO_stats.py-thr1000.csv
+    Feature set containing only the GO features that occur in least 1000 proteins (called 'Frequent GOs' in Table 5 of the paper).
     
   - uniprot_sprot_human.dat-InteractionDigger.py.txt-CreateNetworkFT_paired.py.csv-join_CytoscapeStats.csv:
     PPI Network features. 
