@@ -35,7 +35,7 @@ Description of the files (for more information please see Methods of the paper):
   - uniprot_sprot_human.dat-GO_Digger_Sparse.py.txt-TableGen.py.csv-woAgingGOs.csv.zip
     Gene Ontology features with ancestors and without ageing GOs ( called 'GO' in Table 4 of the paper). 
     
-  - uniprot_sprot_human.dat-GO_Digger_Sparse.py.txt-TableGen.py.csv-woAgingGOs.csv-f_sel_based_on_GO_stats.py-thr1000.csv
+  - uniprot_sprot_human.dat-GO_Digger_Sparse.py.txt-TableGen.py.csv-woAgingGOs.csv-f_sel_based_on_GO_stats.py-thr1000.csv.zip
     Feature set containing only the GO features that occur in least 1000 proteins (called 'Frequent GOs' in Table 5 of the paper).
     
   - uniprot_sprot_human.dat-InteractionDigger.py.txt-CreateNetworkFT_paired.py.csv-join_CytoscapeStats.csv:
